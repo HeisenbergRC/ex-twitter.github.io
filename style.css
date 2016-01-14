@@ -1,5 +1,5 @@
 body{
-  background-image: url("http://www.freeimageslive.com/galleries/nature/water/pics/lake_landscape.jpg");
+  background-image: url("../ex-twitter/Heart of Kuala Lumpur, The Petronas Twin Towers.jpg");
   background-size: cover;
   width: 100%;
   height: 100%;
@@ -28,7 +28,9 @@ li{
   display: none;
 }
 p{
-  background-color: green;
+  font-size: 20px;
+  border-radius: 15px;
+  color: white;
   width: 440px;
   height: 230px;
   margin-left: 20%;
@@ -42,18 +44,61 @@ p{
    background-color: white;
    margin-right: 20%;
   width: 300px;
-  height: 100px;
+  height: 125px;
   float: right;
   margin-top: 10%;
+  border-radius: 15px;
+}
+.form input{
+margin-top: 10px;
+margin-left: 15px;
+}
+.form2 input{
+margin-top: 5px;
+margin-left: 15px;
 }
 .form2{
+  border-radius: 15px;
   background-color: white;
   margin-right: 20%;
-  margin-top: -8%;
+  margin-top: -6%;
   width: 300px;
   height: 150px;
   float: right;
   }
 footer{
   background-color: grey;
+}
+.but{
+  float: right;
+  margin-right: 15px;
+  margin-top: 5px;
+  box-shadow: 0px 1px 0px #FFF;
+  height: 30px;
+  border: 1px solid #3B88C3;
+  border-radius: 4px;
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background-color: #55ACEE;
+}
+.but2{
+  background-image: linear-gradient(#FFCC4D, #FFAC33);
+  border-color: #F1A02A;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+  border: 1px solid #E1E8ED;
+  border-radius: 4px;
+  float: right;
+  margin-right: 15px;
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.souv{
+  font-size: 12px;
+  display: inline-block;
+}
+.new{
+  margin-top: 5px;
+  font-size: 15px;
+  text-align: center;
 }
