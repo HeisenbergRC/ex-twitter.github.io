@@ -1,6 +1,7 @@
 body{
   background-image: url("../ex-twitter/Heart of Kuala Lumpur, The Petronas Twin Towers.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
   width: 100%;
   height: 100%;
 }
@@ -66,9 +67,11 @@ margin-left: 15px;
   height: 150px;
   float: right;
   }
-footer{
+.foo{
   background-color: grey;
+  margin-top: 20%;
 }
+
 .but{
   float: right;
   margin-right: 15px;
